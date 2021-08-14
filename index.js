@@ -85,7 +85,7 @@ for(var i=0;i<questions.length;i++){
   play(currentquestion.question,currentquestion.options,currentquestion.answer)
 }
 if(score<high_score.points){
-  console.log(chalk.green("Your Total Score is :",score,"which is less than the highest score: ",high_score.points +"\n Better luck nect time"))
+  console.log(chalk.green("Your Total Score is :",score,"which is less than the highest score: ",high_score.points +"\n Better luck next time"))
 }
 else{
   console.log(chalk.green("Your score is", score +"Congratulations! \nYou are the highest Scorer!"))
